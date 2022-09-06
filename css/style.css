@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+.registro {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.contacto {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.login {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+}
+header {
+    left: 0px;
+    top: 38px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.descuento {
+    background-color: grey;
+    width: auto;
+}
+
+.logoYtitulo {
+    padding: .5rem 1rem;
+    display: flex;
+    background: #00669F;
+}
+
+.menu {
+    display:flex;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    justify-content: flex-end;
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;  
+    
+}
+
+li {
+    padding: 0rem 1rem;
+}
+
+/*Le saco el color y el subrayado a los links*/
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+
+}
+
+/*Titulo Principal Logo */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/*Titulos de las tarjetas*/
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform:uppercase;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin: 0px;
+    display: inline-block;
+    bottom: 180px;
+}
+
+/*Titulo - Descuento*/
+h3 {
+    margin: 10px 20px ;
+    height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+/*Titulo Github*/
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 2rem 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/*Derecjos Reservados*/
+h6 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 2rem 1.5rem;
+}
+
+p {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 10rem;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+    margin: 0px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6%;
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    margin: 10px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.fondo {
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    width:300px;
+    height: 200px;
+}
+
+.img {
+    margin-top: -2rem;
+    border-radius: 50%;
+    height: 122px;
+    width: 122px; 
+}
+
+.icono {
+    color: red;
+    font-size: 2rem;
+    margin-top: -12rem;
+    margin-left: -14rem;
+}
+
+.icono:hover {
+    color: rgba(224, 19, 19, 0.70);
+}
+
+button {
+    background-color: #00669F;
+    color: white;
+    border: 0px;
+    padding: .5rem 1rem;
+    border-radius: 10%;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: rgb(189, 189, 189);
+    color:#00669F;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #00669F;
+    box-shadow: 0px -10px 7px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1409px) { 
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    h4 {
+       font-size: 1.5rem;
+    }
+    
+    h6 {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 600px) { 
+    .container {
+        flex-direction: column;        
+        align-items: center;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+     }
+     
+     h6 {
+        font-size: .9rem;
+     }
+}
+
