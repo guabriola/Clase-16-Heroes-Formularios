@@ -9,19 +9,23 @@
         <title>Registro</title>
     </head>
 <body>
-
+    <fieldset>
+        <legend>Login</legend>
+    
     <form class="registro" action="login.html" method="POST">
 
-        <label>Nombre:</label>
+        <label>Nombre:
         <input type="text" name="nombre" required>
+        </label>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="email" id="mail">
 
-        <label>E-mail:</label>
-        <input type="email" name="email" required>
-
-        <label>Contraseña:</label>
-        <input type="password" name="password" required>
+        <label for="pass">Contraseña:</label>
+        <input type="password" name="password" id="pass">
 
         <button type="submit" value="Enviar">Crear</button>
     </form>
+
+    </fieldset>
 </body>
 </html>

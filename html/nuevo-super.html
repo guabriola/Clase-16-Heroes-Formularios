@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+        <title>Crea tu Super</title>
+    </head>
+<body>
+    <section class="descuento">
+        <h3>20% de descuento en todos los productos!</h3>
+    </section>
+    <header>
+        <div class="logoYtitulo">
+            <img src="../img/Logo_Tienda.png" alt="Logo de la tienda">
+            <h1>SUPER STORE</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/registro.html">Registrarme</a></li>
+                <li><a href="../html/login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="nueva-card">
+        <h2 class="nuevo-super">Añadí tu Super!</h2>
+        <p class="parrafo-nuevo-super">Agregá tu peronaje favorito completando las opciones.</p>
+        <div class="nombre-especie">
+            <form action="#" method="POST">
+                <label for="nombre">*Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="especie">*Especie</label>
+                <select id="especie" name="cars" required>
+                    <option value="humano">Humano</option>
+                    <option value="reptiliano">Reptiliano</option>
+                    <option value="anfibio">Anfibio</option>
+                    <option value="alienigena">Alienigena</option>
+                  </select>
+            </form>
+        </div>
+            
+        <div class="fecha-foto">
+            <form class="fecha" action="#" method="post">
+                
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" id="fecha">
+
+                <label for="foto">Agregar foto</label>
+                <input class="archivo" type="file" name="avatar" accept=".jpg">
+            </form>
+        </div>
+        
+        <div class="texto-opciones">
+                <form class="descripcion-super" action="#" method="post">
+                    <textarea name="comentario" id="comentario" placeholder="Descripción"></textarea>
+                </form>
+            <div >
+                <form class="poderes" action="#" method="post">
+                    <p class="parrafo-nuevo-super"> Poderes</p>
+                    <input type="checkbox" id="volar" name="volar" value="volar">
+                    <label for="volar">Volar</label><br>
+                    <input type="checkbox" id="inteligencia" name="inteligencia" value="inteligencia">
+                    <label for="inteligencia"> Superinteligancia</label><br>
+                    <input type="checkbox" id="rayoLaser" name="rayoLase" value="rayoLaser">
+                    <label for="rayoLaser">Vista de Rayo láser</label><br>
+                    <input type="checkbox" id="billetera" name="billetera" value="billetera">
+                    <label for="billetera">Billetera gorda</label><br>
+                </form>
+                <hr>
+                <form class="tipo-personaje" action="#" method="post">
+                    <p class="parrafo-nuevo-super"> Tipo de personaje</p>
+                    <input type="radio" id="heroe-heroina" name="heroe-villano" value="heroe-heroina">
+                    <label for="heroe-heroina">Héroe / Heroina</label><br>
+                    <input type="radio" id="villano-villana" name="heroe-villano" value="villano-villana">
+                    <label for="villano-villana">Villano / Villana</label><br>
+                </form> 
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Añadir">
+        </div>
+    </div>
+    <footer>
+        <h6>Todos los derechos reservados a FRONT END 1</h6>
+        <h4>GitHub</h4>    
+    </footer>
+</body>
+</html>

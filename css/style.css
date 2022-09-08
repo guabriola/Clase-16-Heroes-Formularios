@@ -1,6 +1,70 @@
 *{
     box-sizing: border-box;
 }
+
+/*////////////Estilos Nuevo-super///////////////*/
+
+.nueva-card {
+    display: flex;
+    background-color: #00669F;
+    flex-direction:column;
+    align-self: center;
+    border-radius: 5%;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.nombre-especie {
+    display: flex;
+
+}
+
+.fecha-foto {
+    display: flex;
+}
+
+.texto-opciones {
+    display: flex;
+    padding: 1rem;
+}
+
+.descripcion-super {
+    
+
+}
+orm, input, select, textarea{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-small;
+    
+ }
+
+/*titulo de ingreso de datos*/
+.nuevo-super {
+    color: white;
+    text-transform: none;
+}
+
+.parrafo-nuevo-super {
+    height: auto;
+    color: white;
+    font-size:x-small;
+}
+
+input:hover, textarea:hover {
+    background-color:aqua;
+}
+
+.archivo {
+    font-size: x-small;
+}
+
+input[type="file"]:hover {
+    background-color: #00669F;
+}
+
+
+/*////////////Estilos Registro///////////////*/
 .registro {
     flex-direction: column;
     display: flex;
@@ -8,6 +72,7 @@
     padding: 10rem;
 }
 
+/*////////////Estilos Contacto///////////////*/
 .contacto {
     flex-direction: column;
     display: flex;
@@ -15,12 +80,16 @@
     padding: 10rem;
 }
 
+/*////////////Estilos Login///////////////*/
 .login {
     flex-direction: column;
     display: flex;
     justify-content: center;
     padding: 10rem;
 }
+
+/*////////////Estilos Pagina Principal///////////////*/
+
 header {
     left: 0px;
     top: 38px;
@@ -35,7 +104,7 @@ body {
 }
 
 .descuento {
-    background-color: grey;
+    background-color: #1CD1B0;
     width: auto;
 }
 
@@ -86,7 +155,6 @@ h1 {
     color: white;
     font-weight: 400;
     font-style: normal;
-    font-weight: 400;
     font-size: 2rem;
 }
 
@@ -202,8 +270,10 @@ footer {
     justify-content: space-between;
     background: #00669F;
     box-shadow: 0px -10px 7px rgba(0, 0, 0, 0.25);
+    bottom: 0px;
 }
 
+/*//////Configuracion para otras resoliciones - Pagina principal////*/
 @media (max-width: 1409px) { 
     .container {
         flex-wrap: wrap;
